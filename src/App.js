@@ -11,7 +11,7 @@ const App = () => {
 		<Router>
 			<Routes>
 				<Route path="/" element={<Landing />} />
-				<Route path="/projects" element={<LandingProjects />} />
+				<Route path="/garbagepickupapp" element={<LandingProjects />} />
 			</Routes>
 		</Router>
 	)
