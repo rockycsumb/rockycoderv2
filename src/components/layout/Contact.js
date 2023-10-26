@@ -11,6 +11,8 @@ const Contact = () =>{
 		email: "",
 		message: ""
 	});
+
+	console.log("email stuff ", process.env.REACT_APP_E_SERVICE_ID)
 	
 	const {
 		name,
@@ -32,9 +34,9 @@ const Contact = () =>{
 			message: message	
 		}
 			console.log("formData from contact ", formData);
-		var service_id = 'gmail';
+		var service_id = process.env.REACT_APP_E_SERVICE_ID;
 		var template_id = 'resume_form';
-		var user_id = 'user_ziUA20aQdVmniRSrsE8jQ';
+		var user_id = process.env.REACT_APP_E_USER_ID;
 		
 		emailjs.send(service_id, template_id, templateParams, user_id);
 	
