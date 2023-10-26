@@ -20,7 +20,7 @@ const ProjectInfo = ({
 				<div className="Projects-container-item-name">
 					<NavLink 
 						className="Projects-item-name-link"
-						to={{ pathname: `${projectLiveLink}`}} 
+						to={{ pathname: `//${projectLiveLink}`}} 
 						target="_blank"
 								>
 						{projectTitle}
@@ -45,7 +45,7 @@ const ProjectInfo = ({
 							</div>
 							<div>
 								<Link class="btn btn-warning" 
-									to={{ pathname: `${demoUrl1}` }} 
+									to={{ pathname: `//${demoUrl1}` }} 
 									role="button" 
 									target="_blank"
 								>
@@ -67,7 +67,7 @@ const ProjectInfo = ({
 							</div>
 							<div>
 								<Link class="btn btn-warning" 
-									to={{ pathname: `${demoUrl2}` }}  
+									to={{ pathname: `//${demoUrl2}` }}  
 									role="button" 
 									target="_blank"
 								>
