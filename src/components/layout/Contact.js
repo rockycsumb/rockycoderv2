@@ -31,7 +31,6 @@ const Contact = () =>{
 			email: email,
 			message: message	
 		}
-			console.log("formData from contact ", formData);
 		var service_id = process.env.REACT_APP_E_SERVICE_ID;
 		var template_id = 'resume_form';
 		var user_id = process.env.REACT_APP_E_USER_ID;
@@ -46,12 +45,10 @@ const Contact = () =>{
 		
 		setTimeout(()=>{
 			setTimeout(()=>{
-				// console.log("send a message****")
 				setSendingMessage(false);
 				setMessageSent(false);
 			}, 2000);
 			setMessageSent(true);
-			// console.log("message sent*****")
 		}, 2000);
 	}
 	
