@@ -11,8 +11,6 @@ const Contact = () =>{
 		email: "",
 		message: ""
 	});
-
-	console.log("email stuff ", process.env.REACT_APP_E_SERVICE_ID)
 	
 	const {
 		name,
