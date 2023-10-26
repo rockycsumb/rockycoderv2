@@ -1,0 +1,36 @@
+
+.Landing-header-div, .Landing-resume-div, .Landing-contact-div, .Landing-footer-div {
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	min-width: 300px;
+}
+
+.Landing-header-div {
+	min-height: 600px;
+	background-image: url('../images/headerbg.gif');
+}
+
+.Landing-project-div {
+	min-height: 400px;
+	color: black;
+	background-color: white;
+	text-align: center;
+}
+
+.Landing-resume-div {
+	min-height: 400px;
+	background-image: url('../images/footerbg.png');
+	
+}
+
+.Landing-contact-div {
+	min-height: 400px;
+	background: #FFDD30;
+}
+
+.Landing-footer-div {
+	min-height: 300px;
+	background-image: url('../images/footerbg.png');
+}
+

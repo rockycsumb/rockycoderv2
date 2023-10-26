@@ -1,0 +1,217 @@
+
+
+.Projects-title {
+	display: flex;
+	flex-direction: column;
+	margin: 1em;
+}
+
+.Projects-title-item1 {
+	align-self: start;
+	font-family: 'Recursive', sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+	color: #2D2D2A;
+}
+
+.Projects-title-item2 hr {
+	margin-top: 0;
+	border-top: solid #FFDD30 4px;
+	height: 2px;
+    box-shadow: inset 0 12px 12px -12px #2D2D2A;
+}
+
+.Projects-title-description {
+	display: flex;
+	justify-content: start;
+	align-self: center;
+	margin: 1em;
+	width: 90%;
+}
+
+.Projects-container-item-name {
+	font-size: 1.5em;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	color: #2D2D2A;
+	align-self: center;
+}
+
+.Projects-item-name-link {
+	color: #2D2D2A;
+	text-decoration: none;
+}
+
+.Projects-item-name-link:hover {
+	color: #2D2D2A;
+	text-decoration: none;
+}
+
+.Projects-container-item-description {
+	font-size: 1em;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	color: #A3A2A1;
+	align-self: center;
+	padding-left: 7px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-left: 5px solid #FFDD30;
+	margin-left: 10px;
+}
+
+.Projects-container-item-demo {
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	background-color: #A3A2A1;
+	color: #FFDD30;
+	padding: .75em 1em;
+	border: 0;
+	border-radius: 5px;
+}
+
+.Projects-thumbnails {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-right: 1em;
+	margin-bottom: 1em;
+	width: 90%;
+}
+
+.Projects-container-image {
+	width: 300px;
+	height: 200px;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
+
+.Projects-image {
+	width: 300px;
+	height: 200px;
+	border: 1px solid black;
+}
+
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  margin: 1em;
+  margin-left: 3em;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background: linear-gradient(133deg, rgba(45,45,42,1) 39%, rgba(74,74,73,1) 75%, rgba(45,45,42,1) 100%);;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.Projects-tech {
+	display: flex;
+	justify-content: start;
+	align-self: center;
+	align-content: start;
+	margin: 0 1em;
+	width: 90%;
+}
+
+.Projects-tech-title {
+	font-family: 'Poppins', sans-serif;
+	color: #2D2D2A;
+}
+
+.Projects-tech-info {
+	font-family: 'Poppins', sans-serif;
+	color: #A3A2A1;
+}
+
+
+.Projects-divider {
+	margin: 1em 2.5em;
+}
+
+@media(min-width: 768px){
+	.Projects-thumbnails {
+		flex-direction: row;
+		justify-content: center;
+		margin-left: 1em;
+		align-self: center;
+	}
+	
+	.flip-card {
+	  
+	  margin: 1em;
+	}
+}
+
+@media(min-width: 992px){
+	.Projects-thumbnails {
+		flex-direction: row;
+		justify-content: center;
+		align-self: center;
+	}
+}
+	
+@media(min-width: 1200px){
+	.Projects-thumbnails {
+		flex-direction: row;
+		justify-content: center;
+		align-self: center;
+	}
+	
+	.Projects-image {
+		width: 500px;
+		height: 400px;
+		border: 1px solid black;
+	}
+	
+	.flip-card {
+	  background-color: transparent;
+	  width: 500px;
+	  height: 400px;
+	  margin: 1em;
+	  border: 1px solid #f1f1f1;
+	  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+	}
+	
+	
+
+}

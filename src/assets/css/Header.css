@@ -1,0 +1,120 @@
+
+.Header-main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	margin-top: 12em;
+	width: 100%;
+	height: 300px;
+}
+
+.Header-title {
+	font-family:'Poppins', sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 350px;
+	height: 70em;
+	padding: 10px;
+	background: linear-gradient(133deg, rgba(45,45,42,1) 39%, rgba(74,74,73,1) 75%, rgba(45,45,42,1) 100%);;
+	border-radius: 5px;
+	opacity: .85;
+	margin: 2em 0;
+}
+
+.Header-title-names {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-weight: 400;
+}
+
+.Header-title-name {
+	font-size: 4em;
+	line-height: 1;
+	color: #FFDD30;
+}
+
+.Header-title-description {
+	line-height: 2;
+	font-size: 1.7em;
+	color: white;
+}
+
+.Header-badges {
+	display: flex;
+	justify-content: center;
+}
+
+.Header-badges-items {
+	background: white;
+	margin: .25em;
+	padding: .25em;
+	height: 5em;
+	width: 5em;
+	border-radius: 100%;
+}
+
+.Header-badges-items:hover {
+	transform: translateY(-10px);
+  	transition: all 0.15s ease; 
+}
+
+.Header-badge-icon {
+	font-size: 1.45em;
+}
+
+.Header-badge-mongo-color {
+	color: #459C45;
+}
+
+.Header-badge-express-color {
+	color: #563D7C;
+}
+
+.Header-badge-react-color {
+	color: #00D9FF;
+}
+
+.Header-badge-node-color {
+	color: #8BC500;
+}
+
+
+
+@media(min-width: 992px){
+	.Header-title {
+		width: 500px;
+		height: 15em;
+	}
+	
+	.Header-title-names {
+		flex-direction: row;
+	}
+	
+	.Header-title-name {
+		margin: 0 10px
+	}
+	
+	.Header-badges {
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+		flex-wrap: nowrap;
+	}
+	
+	.Header-badges-items {
+		background: white;
+		margin: 1em;
+		padding: 1em;
+		height: 10em;
+		width: 10em;
+		border-radius: 100%;
+	}
+	
+	.Header-badge-icon {
+		font-size: 4em;
+	}
+}

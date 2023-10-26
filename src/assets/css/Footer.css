@@ -1,0 +1,92 @@
+.Footer {
+	min-height: 200px;
+}
+
+.FooterPA {
+	min-height: 300px;
+}
+
+.Footer-rockycoder {
+	color: white;
+	margin-top: 2em;
+}
+
+.Footer-container {
+	display: flex;
+	justify-content: center;
+}
+
+.Footer-logo {
+	color: white;
+	font-size: 2em;
+	margin: 0 1em;
+}
+
+.Footer-logo-rockycoder {
+	font-family: 'Recursive', sans-serif;
+    margin: 0 5em;
+	margin-bottom: 5px;
+}
+
+.Footer-logo-some {
+    font-size: 1em;
+    color: #A3A2A1;
+    font-weight: bold;
+}
+
+.Footer-logo-coder {
+    font-size: 1em;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.Footer-hr{
+	width: 220px;
+	border-bottom: 2px solid $yellow-color;
+}
+
+.Footer-logo-buttons {
+	color: #fff;
+	opacity: .5;
+}
+
+.Footer-logo-buttons:hover {
+  opacity: 1;
+}
+
+.Footer-logo-buttons:visited {
+  color: #fff;
+}
+
+.Footer-container p {
+	color: white;
+}
+
+.Footer-contact {
+	opacity: .5;
+}
+
+.Footer-contact:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+.Footer-signature {
+	font-size: 10px;
+}
+
+.Footer-signature span {
+	color: #FFDD30;
+}
+
+.Footer-name-link {
+	color: white;
+}
+
+.Footer-name-link:hover {
+	color: white;
+	cursor: pointer;
+}
+
+
+
