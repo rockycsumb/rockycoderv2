@@ -19,6 +19,7 @@ const Projects = () =>{
 			{projectinfo.map((project, index) =>(
 				<Fragment>
 					<ProjectInfo 
+					
 						projectLiveLink={project.projectLiveLink}
 						projectTitle={project.projectTitle}
 						projectDescription={project.projectDescription}

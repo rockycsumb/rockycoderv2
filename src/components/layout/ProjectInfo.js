@@ -44,7 +44,7 @@ const ProjectInfo = ({
 								<h5>{projectBackCardTitle}</h5>
 							</div>
 							<div>
-								<Link class="btn btn-warning" 
+								<Link className="btn btn-warning" 
 									to={{ pathname: `//${demoUrl1}` }} 
 									role="button" 
 									target="_blank"
@@ -66,7 +66,7 @@ const ProjectInfo = ({
 								<h5>{projectBackCardTitle}</h5>
 							</div>
 							<div>
-								<Link class="btn btn-warning" 
+								<Link className="btn btn-warning" 
 									to={{ pathname: `//${demoUrl2}` }}  
 									role="button" 
 									target="_blank"

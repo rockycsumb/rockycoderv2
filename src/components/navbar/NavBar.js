@@ -16,7 +16,6 @@ const NavBar = () =>{
 
 	const toggler = () =>{
 		setToggle(!toggle);
-		console.log("popup", toggle)
 	}
 	
 	return (

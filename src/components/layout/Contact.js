@@ -68,8 +68,8 @@ const Contact = () =>{
 			
 			{sendingMessage && !messageSent ? (
 				<div className="Contact-message-container">
-					<div class="spinner-border spinner-size text-secondary" role="status">
-					  <span class="sr-only">Loading...</span>
+					<div className="spinner-border spinner-size text-secondary" role="status">
+					  <span className="sr-only">Loading...</span>
 					</div>
 				</div>
 				
