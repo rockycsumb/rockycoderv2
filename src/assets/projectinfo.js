@@ -12,14 +12,14 @@ export const projectinfo = [
 	// 	apiUsed: "Sendgrid, Emailjs, Recaptcha, Stripe"
 	// },
 	{
-		projectLiveLink: "49frpz-3000.csb.app/",
+		projectLiveLink: "master--mellow-cupcake-ad9f7b.netlify.app/",
 		projectTitle: "GarbagePickup App",
 		projectDescription: "Custom A.I. to detect when garbage was pickedup",
 		thumb1: "garbagepickup2.png",
 		thumb2: "garbagepickup.png",
 		projectBackCardTitle: "GarbagePickup",
-		demoUrl1: "49frpz-3000.csb.app/",
-		demoUrl2: "49frpz-3000.csb.app/",
+		demoUrl1: "master--mellow-cupcake-ad9f7b.netlify.app/",
+		demoUrl2: "master--mellow-cupcake-ad9f7b.netlify.app/",
 		techUsed: "Roboflow, React, Node.js, HTML, CSS, JavaScript, Socket.io, Twilio",
 		apiUsed: "Roboflow, Twilio"
 	},
