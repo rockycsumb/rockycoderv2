@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.37a6e879.css",
+    "main.js": "/static/js/main.d3c73807.js",
+    "static/media/guitarpic.jpg": "/static/media/guitarpic.0f9f7dd6ff4574f18ae0.jpg",
+    "static/media/taqueria_thumb1.png": "/static/media/taqueria_thumb1.4fe4c11f0664781900fc.png",
+    "static/media/taqueria_thumb2.png": "/static/media/taqueria_thumb2.f1e4d41232c9bb243bac.png",
+    "static/media/curlyadmin_dashboard.png": "/static/media/curlyadmin_dashboard.f93f7a09922d6c54c4b1.png",
+    "static/media/curlyadmin_frontpage.png": "/static/media/curlyadmin_frontpage.9464516b6134dc8e50fe.png",
+    "static/media/covidthumb1.png": "/static/media/covidthumb1.4942afd18eb0c0b0a859.png",
+    "static/media/garbagepickup2.png": "/static/media/garbagepickup2.4734a404a845e390b1ed.png",
+    "static/media/circuitboard.gif": "/static/media/circuitboard.5c367850bbb5720efb8e.gif",
+    "static/media/rockyportfolio_frontpage.png": "/static/media/rockyportfolio_frontpage.759dad529529d722ad79.png",
+    "static/media/covidthumb2.png": "/static/media/covidthumb2.3b34a861bdf1a77b1a69.png",
+    "static/media/guitarpiccopy.jpg": "/static/media/guitarpiccopy.69688d5609de4af56a1f.jpg",
+    "static/media/headerbg.gif": "/static/media/headerbg.2456fe02f486d01fc305.gif",
+    "static/media/garbagepickup.png": "/static/media/garbagepickup.17b31b4692bd49360c4d.png",
+    "static/media/coderchat_chat.png": "/static/media/coderchat_chat.434b491e285dc9fe74d1.png",
+    "static/media/footerbg.png": "/static/media/footerbg.7e3c1c70c56213939c41.png",
+    "static/media/RockyMoreno_resume.pdf": "/static/media/RockyMoreno_resume.59bc7c530bc022aa87db.pdf",
+    "static/media/rockyportfolio_contact.png": "/static/media/rockyportfolio_contact.782b79da106519d21eea.png",
+    "static/media/coderchat_login.png": "/static/media/coderchat_login.7232a806846556cb137e.png",
+    "index.html": "/index.html",
+    "main.37a6e879.css.map": "/static/css/main.37a6e879.css.map",
+    "main.d3c73807.js.map": "/static/js/main.d3c73807.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37a6e879.css",
+    "static/js/main.d3c73807.js"
+  ]
+}
