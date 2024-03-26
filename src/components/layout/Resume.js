@@ -1,6 +1,8 @@
 import React, {Fragment} from 'react';
 import {Link} from 'react-router-dom';
-import { FaReact, FaNode, FaJs, FaHtml5, FaGitSquare, FaCss3Alt, FaLeaf, FaProjectDiagram } from 'react-icons/fa';
+import { FaReact, FaNode, FaJs, FaHtml5, FaGitSquare, FaCss3Alt, FaLeaf, FaProjectDiagram,FaAngular  } from 'react-icons/fa';
+import { GrOracle } from "react-icons/gr";
+import { SiVite, SiDotnet  } from "react-icons/si";
 import myResume from '../../assets/files/RockyMoreno_resume.pdf';
 import '../../assets/css/Resume.css';
 
@@ -54,6 +56,41 @@ const Resume = () =>{
 						</span>
 						<br/>
 						NodeJS
+					</div>
+				</div>
+			</div>
+
+			<div className="Resume-container">
+				<div className="d-flex justify-content-center">
+					<div className="Resume-card text-center shadow-sm">
+						<span className="Resume-badge-icon Resume-badge-node-color">
+							<FaAngular />
+						</span>
+						<br/>
+						AngularJS
+					</div>
+					<div className="Resume-card text-center shadow-sm">
+						<span className="Resume-badge-icon Resume-badge-node-color">
+							<GrOracle />
+						</span>
+						<br/>
+						OracleDB
+					</div>
+				</div>
+				<div className="d-flex justify-content-center">
+					<div className="Resume-card text-center shadow-sm">
+						<span className="Resume-badge-icon Resume-badge-node-color">
+							<SiVite />
+						</span>
+						<br/>
+						Vite
+					</div>
+					<div className="Resume-card text-center shadow-sm">
+						<span className="Resume-badge-icon Resume-badge-node-color">
+							<SiDotnet />
+						</span>
+						<br/>
+						.NET
 					</div>
 				</div>
 			</div>

@@ -36,16 +36,52 @@ export const projectinfo = [
 		apiUsed: "Firebase Google authentication"
 	},
 	{
-		projectLiveLink: "covid-tracker-4a671.web.app/",
-		projectTitle: "CovidTracker",
-		projectDescription: "CovidTracker - Web app for covid tracking",
-		thumb1: "covidthumb1.png",
-		thumb2: "covidthumb2.png",
-		projectBackCardTitle: "CovidTracker",
-		demoUrl1: "covid-tracker-4a671.web.app/",
-		demoUrl2: "covid-tracker-4a671.web.app/",
-		techUsed: "React, Node.js, HTML, CSS, JavaScript, Firebase, leaflet Map, chartjs",
-		apiUsed: "disease.sh"
+		projectLiveLink: "solidrockdesigns.io/",
+		projectTitle: "Solid Rock Designs",
+		projectDescription: "Personal Website Business",
+		thumb1: "solidrock_home.png",
+		thumb2: "solidrock_info.png",
+		projectBackCardTitle: "Solid Rock Designs",
+		demoUrl1: "solidrockdesigns.io/",
+		demoUrl2: "solidrockdesigns.io/",
+		techUsed: "React, Node.js, HTML, CSS, JavaScript, Vite",
+		apiUsed: "EmailJS"
+	},
+	{
+		projectLiveLink: "azrodentproofing.com/",
+		projectTitle: "AZ Rodent Proofing",
+		projectDescription: "Rodent Proofing website for client",
+		thumb1: "azrodent_home.png",
+		thumb2: "azrodent_services.png",
+		projectBackCardTitle: "AZ Rodent Proofing",
+		demoUrl1: "azrodentproofing.com/",
+		demoUrl2: "azrodentproofing.com/services",
+		techUsed: "React, Node.js, HTML, CSS, JavaScript",
+		apiUsed: "EmailJS"
+	},
+	{
+		projectLiveLink: "vickys-daycare.netlify.app/",
+		projectTitle: "Vicky's Daycare",
+		projectDescription: "Daycare sample website",
+		thumb1: "vickys_home.png",
+		thumb2: "vickys_staff.png",
+		projectBackCardTitle: "Vickys Daycare",
+		demoUrl1: "vickys-daycare.netlify.app/",
+		demoUrl2: "vickys-daycare.netlify.app/ourstaff",
+		techUsed: "React, Node.js, HTML, CSS, JavaScript, React Transitions",
+		apiUsed: "EmailJS"
+	},
+	{
+		projectLiveLink: "taqueria-sample.netlify.app/",
+		projectTitle: "Taqueria Los Primos",
+		projectDescription: "Taqueria Resturant Sample",
+		thumb1: "taqueria_thumb1.png",
+		thumb2: "taqueria_thumb2.png",
+		projectBackCardTitle: "Taqueria Los Primos",
+		demoUrl1: "taqueria-sample.netlify.app/",
+		demoUrl2: "taqueria-sample.netlify.app/",
+		techUsed: "React, Node.js, HTML, CSS, JavaScript",
+		apiUsed: "EmailJS"
 	},
 	{
 		projectLiveLink: "www.rockycoder.com/",
@@ -58,17 +94,5 @@ export const projectinfo = [
 		demoUrl2: "www.rockycoder.com/",
 		techUsed: "React, Node.js, HTML, CSS, Heroku",
 		apiUsed: "Emailjs"
-	},
-	// {
-	// 	projectLiveLink: "taqueria-restaurant.herokuapp.com/",
-	// 	projectTitle: "Taqueria Restaurant",
-	// 	projectDescription: "A taqueria restaurant website",
-	// 	thumb1: "taqueria_thumb1.png",
-	// 	thumb2: "taqueria_thumb2.png",
-	// 	projectBackCardTitle: "Taqueria Los Primos",
-	// 	demoUrl1: "taqueria-restaurant.herokuapp.com/",
-	// 	demoUrl2: "taqueria-restaurant.herokuapp.com/",
-	// 	techUsed: "React, Node.js, HTML, CSS, Heroku, and Strapi",
-	// 	apiUsed: "Emailjs, Strapi"
-	// }
+	}
 ]
