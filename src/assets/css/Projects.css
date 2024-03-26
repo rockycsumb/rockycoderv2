@@ -77,7 +77,7 @@
 	align-items: center;
 	margin-right: 1em;
 	margin-bottom: 1em;
-	width: 90%;
+	width: 100%;
 }
 
 .Projects-container-image {
@@ -86,12 +86,16 @@
 	margin-left: 1em;
 	margin-right: 1em;
 	margin-bottom: 1em;
+	/* border: 2px solid red; */
 }
 
 .Projects-image {
 	width: 300px;
 	height: 200px;
-	border: 1px solid black;
+	object-position: 25px 0px;
+	object-fit: contain;
+	background-color: white;
+	/* border: 2px solid red; */
 }
 
 
@@ -135,6 +139,7 @@
 .flip-card-front {
   background-color: #bbb;
   color: black;
+  overflow: hidden;
 }
 
 /* Style the back side */
@@ -200,7 +205,8 @@
 	.Projects-image {
 		width: 500px;
 		height: 400px;
-		border: 1px solid black;
+		object-position: 0px 0px;
+		/* border: 1px solid black; */
 	}
 	
 	.flip-card {

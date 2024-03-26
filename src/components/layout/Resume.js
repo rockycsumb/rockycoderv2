@@ -114,7 +114,7 @@ const Resume = () =>{
 				</div>
 				<div className="d-flex justify-content-center">
 					<div className="Resume-card text-center shadow-sm">
-						Location: San Jose, California
+						Location: Roseville, California
 					</div>
 					<div className="Resume-card text-center shadow-sm">
 						Resume
