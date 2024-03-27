@@ -36,6 +36,18 @@ export const projectinfo = [
 		apiUsed: "Firebase Google authentication"
 	},
 	{
+		projectLiveLink: "studentadminportalui-1187d.web.app/",
+		projectTitle: "Student Admin Portal",
+		projectDescription: "Track student profiles using CRUD operations",
+		thumb1: "studentportal_thumb1.png",
+		thumb2: "studentportal_thumb2.png",
+		projectBackCardTitle: "Student Portal",
+		demoUrl1: "studentadminportalui-1187d.web.app/",
+		demoUrl2: "studentadminportalui-1187d.web.app/",
+		techUsed: ".Net, Azure, Angular, Node.js, HTML, CSS, JavaScript, Firebase",
+		apiUsed: ".Net WebApi"
+	},
+	{
 		projectLiveLink: "solidrockdesigns.io/",
 		projectTitle: "Solid Rock Designs",
 		projectDescription: "Personal Website Business",
@@ -75,8 +87,8 @@ export const projectinfo = [
 		projectLiveLink: "taqueria-sample.netlify.app/",
 		projectTitle: "Taqueria Los Primos",
 		projectDescription: "Taqueria Resturant Sample",
-		thumb1: "taqueria_thumb1.png",
-		thumb2: "taqueria_thumb2.png",
+		thumb1: "taqueria_newThumb1.png",
+		thumb2: "taqueria_newThumb2.png",
 		projectBackCardTitle: "Taqueria Los Primos",
 		demoUrl1: "taqueria-sample.netlify.app/",
 		demoUrl2: "taqueria-sample.netlify.app/",
