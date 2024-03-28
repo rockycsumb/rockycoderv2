@@ -37,8 +37,8 @@ export const projectinfo = [
 	},
 	{
 		projectLiveLink: "studentadminportalui-1187d.web.app/",
-		projectTitle: "Student Admin Portal",
-		projectDescription: "Track student profiles using CRUD operations",
+		projectTitle: "Student Tracker",
+		projectDescription: "Student Database with UI/CRUD",
 		thumb1: "studentportal_thumb1.png",
 		thumb2: "studentportal_thumb2.png",
 		projectBackCardTitle: "Student Portal",
