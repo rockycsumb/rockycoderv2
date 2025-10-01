@@ -24,6 +24,18 @@ export const projectinfo = [
 		apiUsed: "Roboflow, Twilio"
 	},
 	{
+		projectLiveLink: "www.memorytwist.world",
+		projectTitle: "MemoryTwist",
+		projectDescription: "Memory cards game with a twist",
+		thumb1: "memoryTwistThumb1.png",
+		thumb2: "memoryTwistThumb2.png",
+		projectBackCardTitle: "MemoryTwist",
+		demoUrl1: "www.memorytwist.world",
+		demoUrl2: "www.memorytwist.world",
+		techUsed: "React, Node.js, HTML, CSS, JavaScript, MongoDB",
+		apiUsed: "Custom API for backend to keep track of scoreboard"
+	},
+	{
 		projectLiveLink: "coderchat-c0a8c.web.app/",
 		projectTitle: "CoderChat",
 		projectDescription: "CoderChat - WhatsApp replica for coders",
@@ -35,18 +47,18 @@ export const projectinfo = [
 		techUsed: "React, Node.js, HTML, CSS, JavaScript, Firebase",
 		apiUsed: "Firebase Google authentication"
 	},
-	{
-		projectLiveLink: "studentadminportalui-1187d.web.app/",
-		projectTitle: "Student Tracker",
-		projectDescription: "Student Database with UI/CRUD",
-		thumb1: "studentportal_thumb1.png",
-		thumb2: "studentportal_thumb2.png",
-		projectBackCardTitle: "Student Portal",
-		demoUrl1: "studentadminportalui-1187d.web.app/",
-		demoUrl2: "studentadminportalui-1187d.web.app/",
-		techUsed: ".Net, Azure, Angular, Node.js, HTML, CSS, JavaScript, Firebase",
-		apiUsed: ".Net WebApi"
-	},
+	// {
+	// 	projectLiveLink: "studentadminportalui-1187d.web.app/",
+	// 	projectTitle: "Student Tracker",
+	// 	projectDescription: "Student Database with UI/CRUD",
+	// 	thumb1: "studentportal_thumb1.png",
+	// 	thumb2: "studentportal_thumb2.png",
+	// 	projectBackCardTitle: "Student Portal",
+	// 	demoUrl1: "studentadminportalui-1187d.web.app/",
+	// 	demoUrl2: "studentadminportalui-1187d.web.app/",
+	// 	techUsed: ".Net, Azure, Angular, Node.js, HTML, CSS, JavaScript, Firebase",
+	// 	apiUsed: ".Net WebApi"
+	// },
 	{
 		projectLiveLink: "solidrockdesigns.io/",
 		projectTitle: "Solid Rock Designs",
@@ -60,14 +72,14 @@ export const projectinfo = [
 		apiUsed: "EmailJS"
 	},
 	{
-		projectLiveLink: "azrodentproofing.com/",
+		projectLiveLink: "azrodent-dev.netlify.app/",
 		projectTitle: "AZ Rodent Proofing",
 		projectDescription: "Rodent Proofing website for client",
 		thumb1: "azrodent_home.png",
 		thumb2: "azrodent_services.png",
 		projectBackCardTitle: "AZ Rodent Proofing",
-		demoUrl1: "azrodentproofing.com/",
-		demoUrl2: "azrodentproofing.com/services",
+		demoUrl1: "azrodent-dev.netlify.app/",
+		demoUrl2: "azrodent-dev.netlify.app/services",
 		techUsed: "React, Node.js, HTML, CSS, JavaScript",
 		apiUsed: "EmailJS"
 	},
