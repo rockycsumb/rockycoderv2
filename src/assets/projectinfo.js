@@ -36,6 +36,18 @@ export const projectinfo = [
 		apiUsed: "Custom API for backend to keep track of scoreboard"
 	},
 	{
+		projectLiveLink: "www.rosevilleweekly.com",
+		projectTitle: "RosevilleWeekly",
+		projectDescription: "Roseville weekly newsletter",
+		thumb1: "rosevilleWeeklyThumb1.png",
+		thumb2: "rosevilleWeeklyThumb2.png",
+		projectBackCardTitle: "RosevilleWeekly",
+		demoUrl1: "www.rosevilleweekly.com",
+		demoUrl2: "www.rosevilleweekly.com",
+		techUsed: "React, Node.js, HTML, CSS, JavaScript, MongoDB",
+		apiUsed: "Custom API to subscribe, and admin dashboard"
+	},
+	{
 		projectLiveLink: "coderchat-c0a8c.web.app/",
 		projectTitle: "CoderChat",
 		projectDescription: "CoderChat - WhatsApp replica for coders",
