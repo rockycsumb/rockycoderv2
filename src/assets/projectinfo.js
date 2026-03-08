@@ -110,7 +110,7 @@ export const projectinfo = [
 	{
 		projectLiveLink: "taqueria-sample.netlify.app/",
 		projectTitle: "Taqueria Los Primos",
-		projectDescription: "Taqueria Resturant Sample",
+		projectDescription: "Taqueria Restaurant Sample",
 		thumb1: "taqueria_newThumb1.png",
 		thumb2: "taqueria_newThumb2.png",
 		projectBackCardTitle: "Taqueria Los Primos",
