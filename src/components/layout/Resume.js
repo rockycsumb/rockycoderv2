@@ -12,14 +12,14 @@ const Resume = () =>{
 			<div className="Resume-title-header">
 				<div className="Resume-title-item">
 					Resume
-								<Link
+								{/* <Link
 									className="btn btn-warning btn-sm ml-2 "
 									to={myResume}
 									target="_blank"	
 									download
 								>
 									Download
-								</Link>
+								</Link> */}
 				</div>
 				<div>
 					<hr className="Resume-title-hr" />
@@ -154,16 +154,16 @@ const Resume = () =>{
 						Location: Roseville, California
 					</div>
 					<div className="Resume-card text-center shadow-sm">
-						Resume
+						Resume available upon request
 						
-						<Link
+						{/* <Link
 									className="btn btn-warning btn-sm"
 									to={myResume}
 									target="_blank"	
 									download
 								>
 									Download
-								</Link>
+								</Link> */}
 					</div>
 				</div>
 			</div>
